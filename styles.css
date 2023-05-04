@@ -1,29 +1,26 @@
 /*  your css code here. If applicable */
 /*  your css code here. If applicable */
-body{
-	font-family:sans-serif;
+.body{
+	background-color:#fff;
 }
-span{
-	color:royalblue;
-}
-h1{
+.book-library{
+	background-color: #fff;
 	text-align:center;
-	font-weight:normal;
 }
-#title, #author, #isbn{
-	width:100%;
-	border:1px solid lightgray;
-	padding:3px;
-	border-radius:5px;
+.book{
+	background-color:#f8f8f8;
+	text-align:center;
+	margin:10px;
 }
-#submit{
-	background-color: royalblue; 
+.authorr{
+.author{
+	text-align:left;
+}
+.authorr .author{
+.author .author{
+	color:#777777;
+}
+.price-block{
+	background-color:rgb(46, 204, 113);
 	color:white;
-	padding:3px;
-	border:0px;
-	border-radius:5px;
-}
-.table-striped{
-	width:100%;
-	border-bottom: 1px solid aliceblue;
 }

@@ -1,51 +1,47 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MyBookList</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center mb-5">MyBookList</h1>
+      <div class="form-group">
+        <label for="title">Title:</label>
+        <input type="text" class="form-control" id="title" />
+      </div>
+      <div class="form-group">
+        <label for="author">Author:</label>
+        <input type="text" class="form-control" id="author" />
+      </div>
+      <div class="form-group">
+        <label for="isbn">ISBN:</label>
+        <input type="text" class="form-control" id="isbn" />
+      </div>
+      <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+      <table class="table table-striped mt-5">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>ISBN#</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="book-list"></tbody>
+      </table>
+    </div>
 
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-	<div>
-		<h1>My<span>Book</span>List</h1>
-	</div>
-	<div class="form-group">
-		<label for="title">Title</label><br>
-		<input type="text" id="title" name="title"><br>
-	
-		<label for="Author">Author</label><br>
-		<input type="text" id="author" name="author"><br>
-	
-	
-		<label for="isbn">ISBN#</label><br>
-		<input type="text" id="isbn" name="isbn"><br>
-
-		<input type="button" id="submit" value="Add book"></button>
-	</div>
-	<div>
-		<table class="table-striped">
-			<thead>
-				<tr>
-					<th>Title</th>
-					<th>Author</th>
-					<th>ISBN#</th>
-				</tr>
-			</thead>
-			<tbody id="book-list">
-				<tr>
-					<td>Book1</td>
-					<td>Author1</td>
-					<td>1</td>
-					<td><button type="button" class="deletebtn" style="background-color: red; color:white">x</button></td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
     <script type="text/javascript" src="./script.js">
 </script>
-
-</body>
-
+  </body>
 </html>
